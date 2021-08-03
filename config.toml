@@ -428,10 +428,10 @@ theme = "LoveIt"
 
   #  网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-ELBZ0GV9PN"
       # 是否匿名化用户 IP
       anonymizeIP = true
     # Fathom Analytics
