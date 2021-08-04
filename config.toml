@@ -324,11 +324,11 @@ theme = "LoveIt"
       # Gitalk 评论系统设置
       [params.page.comment.gitalk]
         # 
-        enable = false
+        enable = true
         owner = "r-value"
-        repo = ""
+        repo = "hugo-blog"
         clientId = "3ecc8a572aa9eff807d9"
-        clientSecret = "f8fc75ef1fced5a74d7b144323f25e9e9fdf4a53"
+        clientSecret = "16338b62b6e5333324bcafe386576e86fd60ac93"
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
