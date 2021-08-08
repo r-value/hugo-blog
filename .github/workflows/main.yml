@@ -50,7 +50,7 @@ jobs:
           # Admin API Key of Algolia
           admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
           # Index name of Algolia
-          index_name: index.json
+          index_name: blog
           # Index file path
-          index_file_path: public/
+          index_file_path: public/index.json
 
