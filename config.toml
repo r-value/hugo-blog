@@ -471,7 +471,7 @@ theme = "LoveIt"
   # 语法高亮设置
   [markup.highlight]
     codeFences = true
-    guessSyntax = true
+    guessSyntax = false
     lineNos = true
     lineNumbersInTable = true
     # false 是必要的设置
@@ -576,5 +576,13 @@ theme = "LoveIt"
     post = ""
     name = "个人"
     url = "https://rvalue.moe"
-    title = ""
+    title = "Personal Index"
     weight = 4
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = "关于"
+    weight = 5
