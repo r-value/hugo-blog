@@ -1,6 +1,7 @@
 ---
 title: "Migration Todo List"
-date: 2021-08-04T18:52:13Z
+date: 2021-08-04T18:52:13+08:00
+lastmod: 2021-8-12T17:59:55+08:00
 draft: false
 tags: ["Hugo"]
 categories: ["日常/游记"]
@@ -21,7 +22,7 @@ categories: ["日常/游记"]
 + [x] Mermaid 图修复
 + [x] 网站图标
 + [x] 自定义CSS补充
-+ [ ] 写一篇迁移日志
++ [x] 写一篇迁移日志
 + [x] 使用 Algolia 搜索
   + [x] 自动化 Algolia 索引
 + [x] 添加一个 about
