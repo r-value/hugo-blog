@@ -277,6 +277,58 @@ if($('#cnblogs_post_body').hasClass('cnblogs-markdown') && window.location.href.
 }
 ```
 
+## Google Analytics
+
+这篇博客最开始发出去之后在 GA 报表里发现其他人的文章标题的我还不知道 我已经踏进了怎样的一个大坑
+
+{{< admonition type=warning title="TL;DR" >}}
+GA4 统计无法做到基于源域的筛选或者白名单, 不要在个人博客用
+{{< /admonition >}}
+
+事情开始是因为我偶然翻 GA 后台实时报表的时候发现了一些 title 后缀并不是我博客的记录, 意识到应该是不知道哪个憨憨把我博客配置文件扒走了还没改 GA 的 ID
+
+感到震惊 GA 没有验证源域之余开始尝试做白名单, 然后就非常绝望地发现 "数据流网址" / "网域配置" 这些根本不包含限制语义
+
+然后寻思着能不能把它过滤掉, 于是试着用 GA4 的数据过滤器, 结果一看好家伙, 过滤规则只有请求带 debug 的和内网流量这两种, 直接给我整不会了
+
+回去翻 GA4 的官方文档, 写的那叫一个锤子, 根本不说人话
+
+咕咕噜了一波外部资料, 发现全都是说什么 GA4 可以做 cross-domain 但是从来没有告诉我怎么限制 domain 的
+
+换了一下 keyword 查到了[一个 GA4 tip](https://www.nwsdigital.com/Blog/GA4-Setup-tips), 它是这么写的:
+
+> A hostname filter has been an essential part of a good GA setup for years. 
+>
+> The hostname filter verifies that a user is on your website when their visit is recorded. It will block both spam traffic and traffic from your test, staging, or development environments.
+>
+> If you’ve already set up a hostname filter in your Universal Analytics (UA) account, you may think you can apply it to your GA4 property.  But no – none of the UA filters will work in GA4.
+
+> So far, there’s actually no way to create a valid hostname filter in GA4.
+
+好家伙 直接退化了是吧
+
+这篇文章倒是介绍了一个用 GTM 做 filter 的解决方案, 但是有折腾这个的时间我还不如换回 UA...
+
+查了查追踪 ID 被其他人使用的情况, 发现果然不止我一个有这个问题, 比如这个 [How does Google Analytics restrict domains?](https://stackoverflow.com/questions/8899690/how-does-google-analytics-restrict-domains)
+
+结论是:
+
+> Google Analytics, in its default behavior, **does not** differentiate or validate the source of the data.
+>
+> If someone were to maliciously put your GA account ID on their site, you'd get their data transmitted back to your account as if you'd put it on your site yourself.
+> 
+> If this becomes an issue, you could configure a Google Analytics filter to either exclude traffic from specific malicious domains, or include traffic to your specific domains.
+>
+> This is very rarely an issue that comes up for people.
+
+考虑到这是一个 ⑨ 年前的问题, 大概指的是 UA 时期的 Google Analytics. 那个时候确实可以以比较精细的方式做 filter
+
+其实不太理解为什么咕咕噜要在 GA4 里把 filter 砍成这个德行...而且相对 UA 更 "先进" 的数据对于个人博客来说看上去并没有什么卵用...
+
+结论就是, 不要在个人博客用 GA4...
+
+现在已经把站里的 GA4 统计都换成 UA 了...
+
 ## 代码仓库
 
 各种微调过的代码都在 [@r-value](https://github.com/r-value) 名下的 repo
