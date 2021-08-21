@@ -2,7 +2,7 @@
 title: "博客搭建踩坑日志"
 date: 2021-08-11T16:43:21+08:00
 lastmod: 2021-8-12T17:57:24+08:00
-categories: ["其它技术"]
+categories: ["其他技术"]
 tags: ["Hugo", "LoveIt"]
 draft: false
 ---
