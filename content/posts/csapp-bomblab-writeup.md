@@ -4,7 +4,7 @@ date: 2021-08-25T14:52:15+08:00
 draft: false
 categories: ["题解"]
 tags: ["逆向", "ICS"]
-featuredImage: 'https://pic.rvalue.moe/2021/08/25/37a9213a8f221.png'
+featuredImage: 'https://pic.rvalue.moe/2021/08/25/243cab1f4e1f8.png'
 ---
 
 假期无聊的自己想起之前读 CS:APP 但是没有仔细做里面的 lab, 于是挑个 (也许) 最好玩的先来玩一玩正好边玩边写
