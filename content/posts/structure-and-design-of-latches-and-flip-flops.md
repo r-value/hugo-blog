@@ -3,6 +3,7 @@ title: '数字电路: 锁存器/触发器的构造设计'
 categories: ["学习笔记"]
 tags: ["数字电路", "CPU", "锁存器", "触发器"]
 date: 2021-08-21T10:33:10+08:00
+featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/D-Type_Flip-flop_Diagram.svg/1920px-D-Type_Flip-flop_Diagram.svg.png'
 ---
 
 在数字电路中, 只由逻辑门构成的组合电路本质上是不存储信息的, 它的输出会持续地响应输入的变化, 且只取决于输入的信息. 而在实现计算机的过程中, 我们知道图灵机是有状态且逐步转移的, 需要为我们所构造的计算机引入状态并在其中逐步转移, 为此我们需要引入能够记录状态并按顺序执行状态转移的元件, 也就是触发器 (flip-flop) / 锁存器 (latch) 与时钟. 这里记录一下各种锁存器/触发器的功能与结构.
