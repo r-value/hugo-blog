@@ -360,14 +360,14 @@ theme = "LoveIt"
         languageCode = "zh_CN"
       #  Telegram Comments 评论系统设置
       [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
+        enable = true
+        siteID = "rgBO2ClO"
+        limit = 10
         height = ""
         color = ""
         colorful = true
         dislikes = false
-        outlined = false
+        outlined = true
       #  Commento 评论系统设置
       [params.page.comment.commento]
         enable = false
