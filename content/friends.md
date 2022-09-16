@@ -41,7 +41,7 @@ draft: false
 
 <!--
 <a class="friend" href="https://rvalue.moe">
-    <img src="https://gravatar.loli.net/avatar/52ab8833e62cdd3773e36daa284d7a80?s=64&amp;d=mp" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
+    <img src="https://gravatar.loli.net/avatar/52ab8833e62cdd3773e36daa284d7a80?s=64&d=mp" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
     <div class="fdivider"></div>
     <span style="margin: auto; font-weight: bold; font-size: 18px;">
         rvalue
@@ -49,7 +49,7 @@ draft: false
 </a>
 -->
 <a class="friend" href="https://rvalue.moe">
-    <img src="https://gravatar.loli.net/avatar/52ab8833e62cdd3773e36daa284d7a80?s=64&amp;d=mp" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
+    <img src="https://gravatar.loli.net/avatar/52ab8833e62cdd3773e36daa284d7a80?s=150&d=mp" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
     <div class="fdivider"></div>
     <span style="margin: auto; font-weight: bold; font-size: 18px;">
         rvalue
