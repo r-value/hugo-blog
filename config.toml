@@ -604,3 +604,11 @@ theme = "LoveIt"
     url = "/about/"
     title = "关于"
     weight = 5
+  [[menu.main]]
+    identifier = "friends"
+    pre = ""
+    post = ""
+    name = "Friends"
+    url = "/friends/"
+    title = "关于"
+    weight = 6
