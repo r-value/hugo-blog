@@ -76,6 +76,13 @@ draft: false
         slanterns
     </span>
 </a>
+<a class="friend" href="https://rqy.moe">
+    <img src="https://rqy.moe/about/rqy.png" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
+    <div class="fdivider"></div>
+    <span style="margin: auto; font-weight: bold; font-size: 18px;">
+        _rqy
+    </span>
+</a>
 
 </div>
 {{</ raw >}}
