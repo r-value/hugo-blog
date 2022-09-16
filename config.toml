@@ -383,7 +383,7 @@ theme = "LoveIt"
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         # 你可以参考官方文档来使用下列配置
-        enable = false
+        enable = true
         repo = "r-value/hugo-blog"
         repoId = "MDEwOlJlcG9zaXRvcnkzOTE3NjE3MjQ"
         category = "Announcements"
