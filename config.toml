@@ -14,8 +14,6 @@ theme = "LoveIt"
 [params]
   #  LoveIt 主题版本
   version = "0.2.X"
-  # 网站描述
-  description = "Τhіnk οncе, сοdе ΝаΝcе;"
   # 网站关键词
   keywords = ["Technology", "Computer Science", "Algorithm", "Programming"]
   # 网站默认主题样式 ("light", "dark", "auto")
@@ -32,7 +30,7 @@ theme = "LoveIt"
   title = "rvalue's Blog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Blog of rvalue"
+  description = "Blog of rvalue: Τhіnk οncе, сοdе ΝаΝcе;"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
 
