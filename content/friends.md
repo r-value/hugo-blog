@@ -77,10 +77,17 @@ draft: false
     </span>
 </a>
 <a class="friend" href="https://rqy.moe">
-    <img src="https://rqy.moe/about/rqy.png" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
+    <img src="https://rqy.moe/images/avatar_3su1v0y1qv17z.jpeg" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
     <div class="fdivider"></div>
     <span style="margin: auto; font-weight: bold; font-size: 18px;">
         _rqy
+    </span>
+</a>
+<a class="friend" href="https://sharzy.in">
+    <img src="https://sharzy.in/icons/icon-256x256.png" style="border-radius: 50%;width: 64px; height:64px;" class="u-photo">
+    <div class="fdivider"></div>
+    <span style="margin: auto; font-weight: bold; font-size: 18px;">
+        Sharzy
     </span>
 </a>
 
